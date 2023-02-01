@@ -9,11 +9,14 @@ function home () {
         <Def>
             <main>
                 <h1>HOME</h1>
-               
-            </main>
-            <a href='/places'>
+                <img src='/images/restaurantProjCover.jpg' height='400' alt='restaurant picture'/>
+               <div>
+                 Photo by <a href="https://unsplash.com/@ninjason?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Leung</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+               </div>
+               <a href='/places'>
                     <button type='button' className='btn btn-primary'>Places</button>
                 </a>
+            </main>
         </Def> 
     )
 }
