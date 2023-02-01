@@ -5,5 +5,6 @@ const router = require("express").Router();
 router.get("/", (req, res) => {
   res.send("GET /places");
 });
+
 //will be exported
 module.exports = router;

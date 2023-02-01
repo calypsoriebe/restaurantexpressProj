@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 //404 route BELOW homepage so doesnt overwrite it
 app.get("*", (req, res) => {
   //the .status(404) makes it legit return an error code
-  res.status(404).send(<h1>ERORR 404: PAGE NOT FOUND</h1>);
+  res.status(404).send("<h1>ERORR 404: PAGE NOT FOUND</h1>");
 });
 
 //tells app what to listen to
