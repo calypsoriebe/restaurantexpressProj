@@ -6,7 +6,8 @@ function Def (html) {
     return <html>
         <head>
             <title>Title</title>
-        </head>
+        
+              </head>
         <body>
             {html.children}
         </body>

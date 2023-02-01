@@ -9,8 +9,12 @@ function home () {
         <Def>
             <main>
                 <h1>HOME</h1>
+               
             </main>
-        </Def>
+            <a href='/places'>
+                    <button type='button' className='btn btn-primary'>Places</button>
+                </a>
+        </Def> 
     )
 }
 
