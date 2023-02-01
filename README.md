@@ -17,3 +17,10 @@ Makes use of express / react, making different routes and controllers
 | Post   | /places/:id/rant         | creat a comment          |
 | Delete | /places/:id/rant/:rantid | delete a comment         |
 | Get    | \*                       | 404 page                 |
+
+| place            | city     | state | cuisine  |
+| ---------------- | -------- | ----- | -------- |
+| great wall south | clt      | nc    | chinese  |
+| boading          | clt      | nc    | chinese  |
+| ichiban          | brooklyn | nyc   | japanese |
+| musashi          | clt      | nc    | japanese |
