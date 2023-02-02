@@ -1,6 +1,9 @@
 //creating a router
 const router = require("express").Router();
-
+//cant figure out how to make the form render on /new for now
+router.get("/", (req, res) => {
+  res.render("places/forms");
+});
 //making an index page
 router.get("/", (req, res) => {
   //local variable places will be an array of objects
