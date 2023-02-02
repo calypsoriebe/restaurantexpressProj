@@ -10,28 +10,28 @@ router.get("/", (req, res) => {
       city: "Charlotte",
       state: "North Carolina",
       cuisine: "Chinese",
-      picture: "http://placekitten.com/250/250",
+      picture: "/images/greatwall.jpeg",
     },
     {
       name: "Ichiban",
       city: "Brooklyn",
       state: "New York",
       cuisine: "Japanese",
-      picture: "http://placekitten.com/250/250",
+      picture: "/images/ichiban.webp",
     },
     {
       name: "Boading",
       city: "Charlotte",
       state: "North Carolina",
       cuisine: "Chinese",
-      picture: "http://placekitten.com/250/250",
+      picture: "/images/baohouse.jpeg",
     },
     {
       name: "Musashi",
       city: "Charlotte",
       state: "North Carolina",
       cuisine: "Japanese",
-      picture: "http://placekitten.com/250/250",
+      picture: "/images/musashis.jpeg",
     },
   ];
   //res.send("GET /places");

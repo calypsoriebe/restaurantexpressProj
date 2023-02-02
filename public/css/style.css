@@ -3,3 +3,8 @@ h1 {
     color: cornflowerblue;
     background-color: thistle;
 }
+img{
+    max-width: 50%;
+    height: auto;
+    align-items: center;
+}

@@ -8,7 +8,7 @@ function errorCode () {
         <Def>
             <main>
                 <h1>ERROR 404: PAGE NOT FOUND</h1>
-                <img src='/images/404lilbro.jpg'/>
+                <img src='/images/404lilbro.jpg'height='500'/>
                 <div>
                     Photo by <a href="https://unsplash.com/@bjornftw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Björn Antonissen</a> on <a href="https://unsplash.com/s/photos/hamster?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                 </div>
